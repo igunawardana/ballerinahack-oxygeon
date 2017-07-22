@@ -1,0 +1,197 @@
+{
+    "status": "ok",
+    "sources": [
+        {
+            "id": "bloomberg",
+            "name": "Bloomberg",
+            "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News.",
+            "url": "http://www.bloomberg.com",
+            "category": "business",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top"
+            ]
+        },
+        {
+            "id": "business-insider",
+            "name": "Business Insider",
+            "description": "Business Insider is a fast-growing business site with deep financial, media, tech, and other industry verticals. Launched in 2007, the site is now the largest business news site on the web.",
+            "url": "http://www.businessinsider.com",
+            "category": "business",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "business-insider-uk",
+            "name": "Business Insider (UK)",
+            "description": "Business Insider is a fast-growing business site with deep financial, media, tech, and other industry verticals. Launched in 2007, the site is now the largest business news site on the web.",
+            "url": "http://uk.businessinsider.com",
+            "category": "business",
+            "language": "en",
+            "country": "gb",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "cnbc",
+            "name": "CNBC",
+            "description": "Get latest business news on stock markets, financial & earnings on CNBC. View world markets streaming charts & video; check stock tickers and quotes.",
+            "url": "http://www.cnbc.com",
+            "category": "business",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top"
+            ]
+        },
+        {
+            "id": "die-zeit",
+            "name": "Die Zeit",
+            "description": "Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport lesen Sie auf ZEIT ONLINE.",
+            "url": "http://www.zeit.de/index",
+            "category": "business",
+            "language": "de",
+            "country": "de",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "latest"
+            ]
+        },
+        {
+            "id": "financial-times",
+            "name": "Financial Times",
+            "description": "The latest UK and international business, finance, economic and political news, comment and analysis from the Financial Times on FT.com.",
+            "url": "http://www.ft.com/home/uk",
+            "category": "business",
+            "language": "en",
+            "country": "gb",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "fortune",
+            "name": "Fortune",
+            "description": "Fortune 500 Daily and Breaking Business News",
+            "url": "http://fortune.com",
+            "category": "business",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "handelsblatt",
+            "name": "Handelsblatt",
+            "description": "Auf Handelsblatt lesen sie Nachrichten über Unternehmen, Finanzen, Politik und Technik. Verwalten Sie Ihre Finanzanlagen mit Hilfe unserer Börsenkurse.",
+            "url": "http://www.handelsblatt.com",
+            "category": "business",
+            "language": "de",
+            "country": "de",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "latest"
+            ]
+        },
+        {
+            "id": "the-economist",
+            "name": "The Economist",
+            "description": "The Economist offers authoritative insight and opinion on international news, politics, business, finance, science, technology and the connections between them.",
+            "url": "http://www.economist.com",
+            "category": "business",
+            "language": "en",
+            "country": "gb",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "the-wall-street-journal",
+            "name": "The Wall Street Journal",
+            "description": "WSJ online coverage of breaking news and current headlines from the US and around the world. Top stories, photos, videos, detailed analysis and in-depth reporting.",
+            "url": "http://www.wsj.com",
+            "category": "business",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top"
+            ]
+        },
+        {
+            "id": "wirtschafts-woche",
+            "name": "Wirtschafts Woche",
+            "description": "Das Online-Portal des führenden Wirtschaftsmagazins in Deutschland. Das Entscheidende zu Unternehmen, Finanzen, Erfolg und Technik.",
+            "url": "http://www.wiwo.de",
+            "category": "business",
+            "language": "de",
+            "country": "de",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "latest"
+            ]
+        }
+    ]
+}
