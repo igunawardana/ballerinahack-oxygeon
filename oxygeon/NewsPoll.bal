@@ -24,6 +24,5 @@ function getNews(string source,string category) {
     //json test = jsons:getJson(response, "$");
 
     system:println(response);
-
     //reply response;
 }
