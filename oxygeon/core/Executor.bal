@@ -1,50 +1,37 @@
 package oxygeon.core;
 
 import ballerina.lang.system;
-import ballerina.lang.jsons;
+import ballerina.utils.logger;
 
 function main (string[] args) {
     
-    int i = 100;
-    json updateResult = {};
+    logger:info("Looking for latest news");
     
-    system:println("Updating news...");
-    
-    i -> wNewsUpdater;
-    updateResult <- wNewsUpdater;
-    
-    system:println("News updated." + jsons:toString(updateResult));
-    
-    boolean isUpdated = true;
-    
-    json notificationResult = {};
     int k;
-    json sendResult={"status":"success"};
+    boolean newsSourceUpdated = false;
     
-    if(isUpdated){
-        system:println("Sending updated news...");
-        k = 0;
-        k -> wNewsSender;
-        sendResult <- wNewsSender;
-    }
+    system:println("Sending updated news...");
+    k = 0;
+    k -> wNewsUpdator;
+    newsSourceUpdated <- wNewsUpdator;
    
-    system:println("News sent." + jsons:toString(sendResult));
+   logger:info("News sources updated: " + newsSourceUpdated);
+   
+   if (newsSourceUpdated) {
+       logger:info("Latest news found and notifying users");
+       notifyUser();
+   }else {
+       logger:error("Error occurred in getting latest news");
+       return;
+   }
      
-    worker wNewsUpdater {
-        int iw;
-        iw <- default;
-        json response = getUsers();
-        system:println("User list: " + jsons:toString(response));
-      //  {"name":"Updates"};
-        response -> default;
-    }
-    
-    worker wNewsSender {
-        int wnsA = 0;
-        wnsA <- default;
-        json response = {"name":"News"};
-        system:println("Notified the users");
-        response -> default;
+    worker wNewsUpdator{
+        int wk = 0;
+        wk <- default;
+        logger:info("Updating news...");
+        boolean success = false;
+        success = updateLatestNews();
+        success -> default;
     }
     
 }
