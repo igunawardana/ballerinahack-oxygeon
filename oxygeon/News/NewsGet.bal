@@ -1,3 +1,5 @@
+package News;
+
 import ballerina.net.http;
 import ballerina.lang.messages;
 
