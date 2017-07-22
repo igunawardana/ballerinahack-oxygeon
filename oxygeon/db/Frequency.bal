@@ -30,6 +30,28 @@ service<http> FrequencyTableService {
         }
         reply response;
     }
+    
+    @http:GET{}
+    @http:Path {value:"/frequency/info"}
+    resource getFrequencyDetails(message m) {
+        map dbProperties = {"jdbcUrl":"jdbc:mysql://localhost:3306/oxygeon","username":"root","password":""};
+        sql:ClientConnector dbConnector = create sql:ClientConnector(dbProperties);
+        string query = "Select f.mobileno, m.uri from frequency f, meta m where f.catid=m.catid";
+        message response = {};
+        try {
+            sql:Parameter[] params = [];
+            datatable dt = sql:ClientConnector.select(dbConnector, query, params);
+            var payload, err = <json>dt;
+            if (err != null) {
+                messages:setJsonPayload(response, payload);
+            } else {
+                throw err;
+            }
+        } catch(errors:Error er) {
+            throw er;
+        }
+        reply response;
+    }
 
     @http:POST{}
     @http:Path {value:"/frequency"}
