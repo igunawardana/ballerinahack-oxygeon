@@ -21,8 +21,7 @@ function main (string[] args) {
        logger:info("Latest news found and notifying users");
        notifyUser();
    }else {
-       logger:error("Error occurred in getting latest news");
-       return;
+       logger:info("No latest news found");
    }
      
     worker wNewsUpdator{
