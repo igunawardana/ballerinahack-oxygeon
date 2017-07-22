@@ -1,6 +1,7 @@
 package oxygeon.core;
 
 import ballerina.lang.system;
+import ballerina.lang.jsons;
 
 function getUsers() (json) {
     system:println("Returning users");
@@ -20,5 +21,5 @@ function getUsers() (json) {
 }
 
 function persistNews(json newsArticles) (boolean) {
-    system:println("Writing only new news to db\nNews content: " + newsArticles);
+    system:println("Writing only new news to db\nNews content: " + jsons:toString(newsArticles));
 }
