@@ -22,7 +22,6 @@ function getNews(string source,string category) {
     //json test = messages:getJsonPayload(response);
 
     //json test = jsons:getJson(response, "$");
-
     system:println(response);
     //reply response;
 }
