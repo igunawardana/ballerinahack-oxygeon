@@ -36,7 +36,7 @@ service<http> FrequencyTableService {
     resource getFrequencyDetails(message m) {
         map dbProperties = {"jdbcUrl":"jdbc:mysql://localhost:3306/oxygeon","username":"root","password":""};
         sql:ClientConnector dbConnector = create sql:ClientConnector(dbProperties);
-        string query = "Select f.mobileno, m.uri from frequency f, meta m where f.catid=m.catid";
+        string query = "Select f.mobileno, m.uri from frequency f, meta m where f.catid=m.catid order by f.mobileno asc";
         message response = {};
         try {
             sql:Parameter[] params = [];
