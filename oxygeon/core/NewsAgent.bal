@@ -3,8 +3,10 @@ package oxygeon.core;
 import ballerina.lang.system;
 import ballerina.net.http;
 import ballerina.lang.messages;
+import ballerina.utils.logger;
 
-function updateLatestNews(){
+function updateLatestNews()(boolean){
+
 
     string[] sources = [];
     string[] categories = [];
@@ -12,14 +14,30 @@ function updateLatestNews(){
     sources = ["cnn", "bbc"];
     categories = ["business","entertainment","sport"];
 
-    int i =0 ;
-    int j=0;
+    int i = 0 ;
+    int j = 0;
+    boolean dbOperation;
 
+    logger:info("Updating news start");
     while(i <  sources.length ){
+        j = 0;
         while(j <  categories.length ){
-            persistNews(getNews(sources[i],categories[j]));
+            logger:debug("Updating news on source "+sources[i]+"category"+categories[j]);
+            dbOperation = persistNews(getNews(sources[i],categories[j]));
+            if(dbOperation){
+                logger:debug("DB updating success");
+                j = j + 1;
+                continue;
+            }else{
+                logger:debug("DB updating fail");
+                break;
+            }
+
         }
+        i = i + 1;
     }
+
+    return dbOperation;
 
 }
 
