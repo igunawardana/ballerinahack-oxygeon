@@ -22,7 +22,7 @@ function getNews(string source,string category) (json) {
     response = http:ClientConnector.get(newsEP,requestPath, m);
 
     json newsObject = messages:getJsonPayload(response);
-    //json test = jsons:getJson(response, "$");
+
     system:println(newsObject);
     return newsObject;
 }
