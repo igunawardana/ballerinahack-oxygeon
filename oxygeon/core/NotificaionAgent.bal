@@ -1,18 +1,13 @@
 package oxygeon.core;
 
 import ballerina.lang.system;
+import ballerina.lang.jsons;
+
 
 function notifyUser(){
     system:println("getting users list");
     json users = getUsers();
-    // http:ClientConnector frequencyService = create http:ClientConnector("http://localhost:9092/db");
-    // message request = {};
-    // message response = http:ClientConnector.post(frequencyService, "/frequency/info", request);
-    //system:println(response);
-}
-
-function abc(){
-    
-    
-    
+    string mobileNo = jsons:getString(users, "$.users[0].user.mobile-no");
+    string uri = jsons:getString(users, "$.users[0].user.news-articles[0].uri");
+    sendSMS(mobileNo, uri);
 }
