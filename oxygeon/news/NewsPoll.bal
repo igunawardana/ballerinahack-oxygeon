@@ -1,13 +1,9 @@
+package oxygeon.news;
+
 import ballerina.lang.system;
 import ballerina.net.http;
 import ballerina.lang.messages;
 
-
-function main (string[] args) {
-    system:println("Hello, World!");
-    getNews("cnn","business");
-
-}
 
 function getNews(string source,string category) (json) {
 
