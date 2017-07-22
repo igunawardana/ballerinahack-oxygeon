@@ -1,9 +1,9 @@
 package oxygeon.core;
 
-import ballerina.lang.system;
 import ballerina.net.http;
 import ballerina.lang.messages;
 import ballerina.utils.logger;
+import ballerina.lang.jsons;
 
 function updateLatestNews()(boolean){
 
@@ -55,6 +55,7 @@ function getNews(string source,string category) (json) {
 
     json newsObject = messages:getJsonPayload(response);
 
-    system:println(newsObject);
+    logger:info("News article found");
+    logger:debug("Article: " + jsons:toString(newsObject));
     return newsObject;
 }
