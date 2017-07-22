@@ -33,7 +33,9 @@ function main (string[] args) {
     worker wNewsUpdater {
         int iw;
         iw <- default;
-        json response = {"name":"Updates"};
+        json response = getUsers();
+        system:println("User list: " + jsons:toString(response));
+      //  {"name":"Updates"};
         response -> default;
     }
     
