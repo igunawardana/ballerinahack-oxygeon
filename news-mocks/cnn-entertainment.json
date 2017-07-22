@@ -1,0 +1,94 @@
+{
+    "status": "ok",
+    "sources": [
+        {
+            "id": "buzzfeed",
+            "name": "Buzzfeed",
+            "description": "BuzzFeed is a cross-platform, global network for news and entertainment that generates seven billion views each month.",
+            "url": "https://www.buzzfeed.com",
+            "category": "entertainment",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "daily-mail",
+            "name": "Daily Mail",
+            "description": "All the latest news, sport, showbiz, science and health stories from around the world from the Daily Mail and Mail on Sunday newspapers.",
+            "url": "http://www.dailymail.co.uk/home/index.html",
+            "category": "entertainment",
+            "language": "en",
+            "country": "gb",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "entertainment-weekly",
+            "name": "Entertainment Weekly",
+            "description": "Online version of the print magazine includes entertainment news, interviews, reviews of music, film, TV and books, and a special area for magazine subscribers.",
+            "url": "http://www.ew.com",
+            "category": "entertainment",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top"
+            ]
+        },
+        {
+            "id": "mashable",
+            "name": "Mashable",
+            "description": "Mashable is a global, multi-platform media and entertainment company.",
+            "url": "http://mashable.com",
+            "category": "entertainment",
+            "language": "en",
+            "country": "us",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        },
+        {
+            "id": "the-lad-bible",
+            "name": "The Lad Bible",
+            "description": "The LAD Bible is one of the largest community for guys aged 16-30 in the world. Send us your funniest pictures and videos!",
+            "url": "http://www.theladbible.com",
+            "category": "entertainment",
+            "language": "en",
+            "country": "gb",
+            "urlsToLogos": {
+                "small": "",
+                "medium": "",
+                "large": ""
+            },
+            "sortBysAvailable": [
+                "top",
+                "latest"
+            ]
+        }
+    ]
+}

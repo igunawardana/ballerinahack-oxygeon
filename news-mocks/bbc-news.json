@@ -1,0 +1,87 @@
+{
+    "status": "ok",
+    "source": "bbc-news",
+    "sortBy": "top",
+    "articles": [
+        {
+            "author": "BBC News",
+            "title": "White House press secretary Sean Spicer resigns",
+            "description": "The president's spokesman was reportedly unhappy with the hiring of a new communications director.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-40687521",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p059byt1.jpg",
+            "publishedAt": "2017-07-22T02:37:45Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "Three Israelis stabbed to death in West Bank attack",
+            "description": "The victims were stabbed to death in an attack on a house in a West Bank settlement.",
+            "url": "http://www.bbc.co.uk/news/world-middle-east-40685369",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/CC45/production/_97039225_2d0545cc-af74-4b2a-ad12-48959167a0ca.jpg",
+            "publishedAt": "2017-07-22T02:03:50Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "Justine Damond shooting: Police chief Janee Harteau quits",
+            "description": "Minneapolis mayor says she lost confidence in the chief after officers killed an Australian woman.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-40690191",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p0597zj8.jpg",
+            "publishedAt": "2017-07-22T04:33:58Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "Qatar emir calls for negotiations to ease Gulf boycott",
+            "description": "Sheikh Al Thani says \"we are open to dialogue\" in his first address since four neighbours cut ties.",
+            "url": "http://www.bbc.co.uk/news/world-middle-east-40687981",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/021F/production/_97034500_039892508-1.jpg",
+            "publishedAt": "2017-07-21T20:33:26Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "Prince George photo marks fourth birthday",
+            "description": "The picture was taken at Kensington Palace at the end of June, ahead of his birthday on Saturday.",
+            "url": "http://www.bbc.co.uk/news/uk-40684062",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/1335B/production/_97038687_efceb4e0-9b57-4711-bb9d-be70fac632c3.jpg",
+            "publishedAt": "2017-07-21T21:00:06Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "UK to bring in drone registration",
+            "description": "Drone owners will also be required to pass a safety awareness test.",
+            "url": "http://www.bbc.co.uk/news/technology-40684581",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/71FF/production/_97038192_gettyimages-485983728.jpg",
+            "publishedAt": "2017-07-21T23:07:41Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "Linkin Park cancel North American tour after Chester Bennington death",
+            "description": "The tour has been cancelled following the death of singer Chester Bennington on Thursday.",
+            "url": "http://www.bbc.co.uk/news/entertainment-arts-40690144",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/121DC/production/_97040247_mediaitem97040243.jpg",
+            "publishedAt": "2017-07-22T03:04:08Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "North Korea tourism: US to ban Americans from visiting",
+            "description": "The State Department says the ban, following the death of a US student, will be published next week.",
+            "url": "http://www.bbc.co.uk/news/world-asia-40680500",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/15B82/production/_97026988_mediaitem97026985.jpg",
+            "publishedAt": "2017-07-21T16:01:59Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "China holds Canadians 'for smoking marijuana'",
+            "description": "Officials reportedly entered a hotel room where members of a travelling equestrian show were staying.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-40686744",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/20B5/production/_97037380_gettyimages-530978034.jpg",
+            "publishedAt": "2017-07-21T18:22:55Z"
+        },
+        {
+            "author": "BBC News",
+            "title": "Afghan soldiers killed in US friendly-fire air strike",
+            "description": "The US says it will investigate the incident in Helmand, where 10 policemen were reportedly killed.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-40685367",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/16795/production/_97035029_afghanistanhelmandbadakhshan4640717.png",
+            "publishedAt": "2017-07-21T18:11:10Z"
+        }
+    ]
+}
