@@ -9,7 +9,6 @@ function getUsers() (json) {
     http:ClientConnector frequencyService = create http:ClientConnector("http://localhost:9092/db");
     message request = {};
     message response = http:ClientConnector.post(frequencyService, "/frequency/info", request);
-    system:println(response);
     json users;
     users = {
         	"users": [{
