@@ -18,3 +18,7 @@ function getUsers() (json) {
         
     return users;
 }
+
+function persistNews(json newsArticles) (boolean) {
+    system:println("Writing only new news to db\nNews content: " + newsArticles);
+}
