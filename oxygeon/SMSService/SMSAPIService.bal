@@ -11,7 +11,7 @@ function main (string[] args) {
 
 function sendSMS(string mobileNumber,string newsContent) (json) {
 
-    http:ClientConnector SMSEP = create http:ClientConnector("https://MitraiRandimaS:8243/services/ShoutoutProxy");
+    http:ClientConnector SMSEP = create http:ClientConnector("https://10.10.10.77:8243/services/ShoutoutProxy");
 
     message request = {};
 
