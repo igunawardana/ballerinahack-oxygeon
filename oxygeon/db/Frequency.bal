@@ -1,4 +1,4 @@
-package db;
+package oxygeon.db;
 
 import ballerina.net.http;
 import ballerina.data.sql;
