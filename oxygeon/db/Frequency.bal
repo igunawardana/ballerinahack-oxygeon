@@ -1,4 +1,4 @@
-package oxygeon.db;
+package db;
 
 import ballerina.net.http;
 import ballerina.data.sql;
@@ -105,9 +105,7 @@ service<http> FrequencyTableService {
         sql:ClientConnector dbConnector = create sql:ClientConnector(dbProperties);
         try {
             sql:ClientConnector.update(dbConnector, query, params);
-            response =  {"response":"Success"};
         } catch(errors:Error er) {
-            response =  {"response":"fail"};
             throw er;
         }
         sql:ClientConnector.close(dbConnector);

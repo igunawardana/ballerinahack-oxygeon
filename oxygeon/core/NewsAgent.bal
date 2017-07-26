@@ -47,7 +47,7 @@ function getNews(string source,string category) (json) {
                                   "http://newsapi.org/v1/");
 
     message response = {};
-    string apiKey="7d1a31375cd84e8480732fc9f9b904cd";
+    string apiKey="<NEWS_API_KEY>";
     string requestPath  = "/sources?category="+category+"&source="+source+"sortBy=latest&apiKey="+apiKey;
 
     response = http:ClientConnector.get(newsEP,requestPath, m);
